@@ -249,7 +249,13 @@ print("\nРозділ 1.5 Опціонали\n")
  5 перевірте і зробіть Commit (збережіть зміни використовуючт git-клієнт)
 
  */
+var userLoggedIn: Bool?
 
-print("Користувач авторизован: ")
+userLoggedIn
 
-print("Користувач авторизован: ")
+print("Користувач авторизован:\(userLoggedIn) ")
+
+userLoggedIn = true
+
+print("Користувач авторизован:\(userLoggedIn)")
+
