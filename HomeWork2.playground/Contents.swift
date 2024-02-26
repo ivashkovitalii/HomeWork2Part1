@@ -198,7 +198,6 @@ print("\nРозділ 1.4 Кортежі\n")
 
      var profileInfo = (firstName: someUserFirstName, age: someUserAge) // зверніть увагу, що є назва параметру
      profileInfo.firstName = "another name" // тому через крапку видно не індекс, а назву параметра
-
      print("Інфорація профіля:")
      print("Ім'я: \(profileInfo.firstName)")
 
@@ -209,17 +208,31 @@ print("\nРозділ 1.4 Кортежі\n")
      print("Температура: \(weatherInfo.1)")
 
  */
+var profileInfo = (firstName: someFirstName, secondName: someSecondName , age: someAge , height: someheight , weight: someweight , pair: somePair)
+profileInfo.firstName = "Andrii"
+profileInfo.age = 19
+profileInfo.secondName = "Sokolovski"
+profileInfo.height = 191
+profileInfo.weight = 74
+profileInfo.pair = true
 
-print("Прізвище: ")
-print("Вік: ")
-print("Зріст: см")
-print("Вага: кг")
-print("У шлюбі: ")
+print("Інформація профіля:")
+print("Ім'я: \(profileInfo.firstName)")
+print("Прізвище:\(profileInfo.secondName) ")
+print("Вік:\(profileInfo.age) ")
+print("Зріст:\(profileInfo.height) см")
+print("Вага:\(profileInfo.weight) кг")
+print("У шлюбі:\(profileInfo.pair) ")
+
+var profileInfo2 = (humidity: humidity , pressure: pressure , degrees: degrees)
+profileInfo2.humidity = 29
+profileInfo2.pressure = 1576
+profileInfo2.degrees = 22
 
 print("\nІнфорація про погоду:")
-print("Тиск: hPa")
-print("Вологість: %")
-print("Температура: C")
+print("Тиск:\(profileInfo2.pressure) hPa")
+print("Вологість:\(profileInfo2.humidity) %")
+print("Температура:\(profileInfo2.degrees) C")
 
 
 print("\nРозділ 1.5 Опціонали\n")
