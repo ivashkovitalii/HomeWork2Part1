@@ -29,12 +29,17 @@ print("Розділ 1.1 Константи\n")
      print("Ім'я хатньої тварини: \(myPetName)")
 
  */
+let petName : String = "Jack"
+print("Ім'я хатньої тварини:\(petName)")
 
-print("Ім'я хатньої тварини: ")
-print("Вага хатньої тварини: кг")
-print("Вік хатньої тварини: років")
-print("Хатня тварина голодна: ")
+var wagePet : Double = 11.6
+print("Вага хатньої тварини:\(wagePet) кг")
 
+var agePet : Int = 4
+print("Вік хатньої тварини:\(agePet) років")
+
+var isHungry : Bool = true
+print("Хатня тварина голодна:\(isHungry)")
 
 print("\nРозділ 1.2 Змінні\n")
 
